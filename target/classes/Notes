@@ -1,0 +1,34 @@
+Listeners - onfail - screenshots
+Should include Window handling 
+Before Suite??Where to apply
+Should we try navigating from page to page. Ex. From login page to forgot password page. How to integrate?
+Should try other browsers
+Page factory
+Asserts in every page
+Cucumber for a testng.
+Testng group
+Logger pass and fail
+
+
+properties.setProperty("prop1", "Value1");
+properties.setProperty("prop2", "Value2");
+properties.store(outputStream, null);
+
+1. Welcome page
+By default, The page take in Paris and Buenos Aires (bwaynows ehreez) for invalid inputs.
+
+2. Reserve page
+By default, The page  loads preset values for all flight choices. 
+
+3.Purchase Page
+Confirmation page-->Should try printing to pdf
+
+4. Register Page
+419 error- Page expired 
+
+5. Login Page
+419 error- Page expired 
+
+Destination page
+Handle image
+

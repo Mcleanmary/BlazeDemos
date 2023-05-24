@@ -1,0 +1,36 @@
+Create a test automation framework that can automate a web application using Selenium WebDriver, TestNG, and Extent Reports. The framework should be designed to be scalable and maintainable, and should follow the Page Object Model design pattern.
+
+url:https://blazedemo.com/
+
+Here are the steps to follow:
+
+1. Define the test scenarios and create a test plan that includes the test cases and their expected outcomes.
+
+2. Create a Maven project and configure the dependencies for Selenium WebDriver, TestNG, and Extent Reports.
+
+3. Set up a folder structure for the framework that includes the following folders:
+
+- src/main/java: This folder will contain the Java classes for the framework.
+- src/main/resources: This folder will contain the configuration files for the framework.
+- src/test/java: This folder will contain the Java classes for the test cases.
+- src/test/resources: This folder will contain the test data and any other resources needed for the test cases.
+
+4. Create a base class that initializes the WebDriver and sets up the TestNG listeners and Extent Reports.
+
+5. Create a Page Object Model (POM) class for each page of the web application. Each POM class should contain methods to interact with the elements on that page.
+
+6. Create a test class for each test scenario. Each test class should inherit from the base class and should use the POM classes to interact with the web application.
+
+7. Configure the TestNG XML file to run the test classes and generate the Extent Reports.
+
+8. Run the tests and verify that the expected outcomes are achieved.
+
+9. Once the tests are passing, add support for data-driven testing using TestNG's DataProvider annotation.
+
+10. Finally, add support for parallel testing using TestNG's parallel execution features.
+
+Bonus:
+
+11. Implement a logging system to capture and report any errors or exceptions that occur during the tests.
+
+12. Implement a screenshot capture feature to capture screenshots of any failed tests.
